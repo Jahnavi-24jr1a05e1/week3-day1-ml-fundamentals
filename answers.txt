@@ -1,0 +1,11 @@
+1. What is the slope?
+
+The slope is represented by the coefficients of the Linear Regression model. Each coefficient shows how much the predicted marks change when a feature increases by one unit while keeping other features constant.
+
+2. What is the intercept?
+
+The intercept is the starting value of the prediction when all feature values are zero.
+
+3. What do they mean?
+
+The coefficients indicate the importance and impact of each feature on student marks. The intercept acts as the baseline prediction. Together they form the regression equation used for predictions.
