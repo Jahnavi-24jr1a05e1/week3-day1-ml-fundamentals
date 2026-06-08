@@ -1,0 +1,31 @@
+DATA COLLECTION
+
+Data collection is the first step in machine learning. It involves gathering information from various sources such as surveys, databases, websites, sensors, or company records. The quality of data directly affects model performance. Good data should be accurate, relevant, and sufficient. Without proper data collection, a machine learning model cannot learn useful patterns.
+
+DATA CLEANING
+
+Data cleaning removes errors and inconsistencies from the dataset. Missing values, duplicate records, incorrect entries, and outliers are handled during this stage. Clean data improves model accuracy and reliability. This step ensures that the machine learning algorithm receives high-quality information.
+
+FEATURE SELECTION
+
+Feature selection is the process of choosing the most important input variables. Relevant features help the model learn efficiently and reduce unnecessary complexity. In this project, Study Hours, Attendance, and Assignments are selected as features. These features are expected to influence student marks.
+
+TRAIN-TEST SPLIT
+
+The dataset is divided into training and testing sets. The training data is used to teach the model, while the testing data evaluates performance. Splitting prevents overfitting and measures how well the model works on unseen data. An 80-20 split is commonly used.
+
+MODEL TRAINING
+
+Model training involves applying a machine learning algorithm to the training data. The algorithm learns relationships between features and the target variable. In this assignment, Linear Regression is used. The model calculates coefficients and an intercept to make predictions.
+
+TESTING
+
+After training, the model is tested using the test dataset. Predictions are generated and compared with actual values. Testing helps determine whether the model has learned meaningful patterns. It provides insight into real-world performance.
+
+EVALUATION
+
+Evaluation measures the effectiveness of the model. Metrics such as Mean Absolute Error (MAE) and R² Score are used. Lower MAE indicates smaller prediction errors, while higher R² values indicate better model fit. Evaluation helps compare different models.
+
+PREDICTION
+
+Prediction is the final step where the trained model is used on new data. The model estimates outcomes based on learned patterns. Businesses and organizations use predictions to support decision-making. In this project, the model predicts student marks.
